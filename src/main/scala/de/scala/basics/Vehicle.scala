@@ -1,4 +1,4 @@
-package de.opitz.bigdata.scala
+package de.scala.basics
 
 abstract class Vehicle(weight: Float, maxSpeed: Float) {
 

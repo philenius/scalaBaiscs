@@ -1,4 +1,4 @@
-package de.opitz.bigdata.scala
+package de.scala.basics
 
 class MaxSpeedLimitExceededException(message: String) extends Exception(message) {
 

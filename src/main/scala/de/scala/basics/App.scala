@@ -1,6 +1,6 @@
 package de.scala.basics
 
-import de.opitz.bigdata.scala.{Car, CarPark}
+import de.scala.basics.{Car, CarPark}
 
 object App {
 

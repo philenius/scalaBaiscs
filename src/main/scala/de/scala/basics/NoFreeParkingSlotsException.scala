@@ -1,4 +1,4 @@
-package de.opitz.bigdata.scala
+package de.scala.basics
 
 class NoFreeParkingSlotsException(message: String) extends Exception(message) {
 

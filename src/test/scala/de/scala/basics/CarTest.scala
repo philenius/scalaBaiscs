@@ -1,6 +1,5 @@
-package de.opitz.bigdata.scala.test
+package de.scala.basics
 
-import de.opitz.bigdata.scala._
 import org.scalatest.{FlatSpec, Matchers}
 
 class CarTest extends FlatSpec with Matchers {
