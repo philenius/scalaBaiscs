@@ -8,3 +8,6 @@ This is a project for learning some basics of the object oriented parts of Scala
 2. Execute the tests in [/src/test/scala/de.scala.basics/](https://github.com/philenius/scalaBasics/tree/master/src/test/scala/de/scala/basics)
 3. Make the tests green by implementing the missing code.
 4. Congratulations! :+1:
+
+
+If you need a hint or just want to view the solution, you can take a look into the history of this repository (checkout commit 04dfe0ff).
