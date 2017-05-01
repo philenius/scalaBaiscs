@@ -1,8 +1,6 @@
 package de.scala.basics
 
 
-class Car(var weight: Float = 1000, var maxSpeed: Float = 180) extends Vehicle(weight, maxSpeed) {
-
-  override def makeSound(): String = "vroom, vroom"
+class Car(var weight: Float = 0, var maxSpeed: Float = 0) extends Vehicle(weight, maxSpeed) {
 
 }

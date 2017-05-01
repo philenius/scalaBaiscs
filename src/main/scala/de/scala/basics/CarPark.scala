@@ -6,22 +6,12 @@ class CarPark(capacity: Int) {
 
   private var vehicleList: ListBuffer[Vehicle] = ListBuffer()
 
-  def getFreeParkingSlots(): Int = this.capacity - this.vehicleList.length
+  def getFreeParkingSlots(): Int = ???
 
-  def getContainedVehicleCount(): Int = this.vehicleList.length
+  def getContainedVehicleCount(): Int = ???
 
-  def driveIn(v: Vehicle): Unit = {
-    if (getFreeParkingSlots == 0) {
-      throw new NoFreeParkingSlotsException
-    }
-    vehicleList += v
-  }
+  def driveIn(v: Vehicle): Unit = ???
 
-  def driveOut(v: Vehicle): Unit = {
-    if (!vehicleList.contains(v)) {
-      throw new NoSuchElementException
-    }
-    vehicleList -= v
-  }
+  def driveOut(v: Vehicle): Unit = ???
 
 }

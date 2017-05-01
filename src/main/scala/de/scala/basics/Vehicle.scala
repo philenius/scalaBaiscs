@@ -2,11 +2,7 @@ package de.scala.basics
 
 abstract class Vehicle(weight: Float, maxSpeed: Float) {
 
-  def drive(speed: Float): Unit = {
-    if (speed > this.maxSpeed) {
-      throw new MaxSpeedLimitExceededException
-    }
-  }
+  def drive(speed: Float): Unit = ???
 
   def makeSound(): String = {
     "no sound"
